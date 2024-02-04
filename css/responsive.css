@@ -1,0 +1,59 @@
+@media(max-width: 1200px){
+    #menu-sec .navbar .navbar-nav .nav-item .nav-link {font-size: 14px;margin-right: 0px;padding: 4px;}
+    #slider-area .trending {max-height: 301px;min-height: 300px;}
+    .extra-search.item1 {top: 320px;}
+    .extra-search.item2 {top: 360px;}
+    .extra-search.item3 {top: 400px;}
+    .extra-search.item4 {top: 440px;}
+    .extra-search.item5 {top: 480px;}
+    .extra-search.item6 {top: 520px;}
+}
+@media(max-width: 991px){
+    #slider-area #main-slider {width: 100%;}
+    #slider-area .trending h5 {display: none;}
+    .trnd-sml{display: block;  width:100%;}
+    .trnd-sml h5{text-align: center;font-weight: 600;color: #fff;background: #494188;padding: 10px 5px;margin: 15px 15px 10px;}
+    #slider-area .trending {width: 100%;display: flex;flex-wrap: wrap;}
+    #slider-area .trending .trnd-news {padding: 20px 15px 20px 15px;width: 50%;}
+    #latest-sec .recent-sec .social-link li {  margin-right: 8px;}
+    #main-body .left-area{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0;
+      }
+      #main-body .right-area{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 15px;
+        margin-bottom: 25px;
+        }
+
+}
+@media(max-width:767px) {
+    h2{font-size: 26px;line-height: 30px;}
+    h3 {font-size: 24px;line-height: 28px;}
+    p {font-size: 14px;line-height: 20px;}
+    /*.all-news {margin: 0 10px;}*/
+    #menu-sec .navbar {padding: 5px;}
+    #menu-sec .form-control {width: 65%;}
+    #menu-sec .menu-area .form-inline .btn {margin-left: 5px;}
+    header .header-sec {display: flex;flex-direction: column;padding: 10px;align-items: center;}
+    header .header-sec .login-area ul {display: flex;flex-direction: column;}
+    header .header-sec .login-area ul li {margin-left: 0;text-align: center;line-height: 50px;}
+    #latest-sec .latest-news .news-area {display: flex;flex-direction: column;margin-top: 25px;margin-bottom: 25px;}
+    #latest-sec .latest-news .news-area .pic-area img {margin-bottom: 15px;}
+    #latest-sec .latest-news .news-area .news-info {margin-left: 0;}
+    footer .area-1 .logo-pic{text-align: center;}
+    footer .area-1 p {text-align: center;}
+    footer .area-1 .social-link {display: flex;padding: 15px 0;width: 190px;margin: auto;}
+    footer .area-1 {margin-bottom: 35px;display: flex;flex-direction: column;align-items: center;}
+    footer .area-1 .footer-head h4 {font-size: 22px;line-height: 28px;}
+    footer .area-1 .footer-info li {text-align: center;}
+    #contact-area .contact-info{
+        margin-bottom: 15px;
+        border: none;
+    }
+    #contact-area .contact-inside h4{
+        text-align: center;
+    }
+}
